@@ -1,0 +1,58 @@
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md,.container-sm, .container-xl, .container-xxl{
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .vt{
+        position:fixed;
+        bottom:0px;
+        width:100%;
+        left:0px;
+        display: flex;
+        justify-content: center !important;
+        background-color: rgb(254, 255, 255);
+        padding:5px 0px;
+    }
+
+    .whatsappBtn, .callus{
+        padding:7px 15px;
+        font-size:14px;
+    }
+
+    .bannerContent h1{
+        font-size: 29px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 34px;
+    }
+
+    .bannerContent br{
+        display:none;
+    }
+
+    .bannerContent p,.bannerContent ul li{
+        font-size: 16px;
+    }
+
+    .bannerContent{
+        flex-direction:column;
+    }
+
+    .bannerContent button{
+        width:100%;
+    }
+
+    .bannerForm{
+        padding:20px;
+    }
+
+    .highlits-section h2{
+        font-size: 28px;
+    }
+
+    .companyTag h1{
+        font-size: 28px;
+    }
+}
